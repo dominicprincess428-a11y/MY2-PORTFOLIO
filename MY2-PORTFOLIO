@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Dominic Princess my2-portfolio</title>
+ <link rel="stylesheet" href="styles.css" />
+ <head>
+
+<body class="pink-theme">
+   <!--Navigation-->
+   <header>
+    <nav>
+        <h1 class="logo">Dominic Princess</h1>
+        <ul>
+            <li><a href="#home" class="active">Home</a><li>
+                <li><a href="#about">About</a></li>
+                </li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   </header>
+
+<!--Theme Switch Buttons-->
+<div class="theme-buttons">
+    <button onclick="setTheme('gold-theme')">Gold</button>
+    <button onclick="setTheme('peach-theme')">Peach</button>
+    <button onclick="setTheme('yellow-theme')">Yellow</button>
+</div>
+
+<!--Home Section-->
+<section id="home" class="home">
+    <img jpg="images/profile.jpg" alt="Dominic Princess" class="profile-img" />
+    
